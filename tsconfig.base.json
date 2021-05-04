@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-nx-abm/auth": ["libs/auth/src/index.ts"],
+      "@angular-nx-abm/layout": ["libs/layout/src/index.ts"],
+      "@angular-nx-abm/products": ["libs/products/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
