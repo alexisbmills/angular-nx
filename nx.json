@@ -19,12 +19,12 @@
     }
   },
   "projects": {
-    "alexisbmills-ui": {
+    "alexisbmills-web": {
       "tags": []
     },
-    "alexisbmills-ui-e2e": {
+    "alexisbmills-web-e2e": {
       "tags": [],
-      "implicitDependencies": ["alexisbmills-ui"]
+      "implicitDependencies": ["alexisbmills-web"]
     }
   }
 }
